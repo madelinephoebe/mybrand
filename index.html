@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Grooming</title>
+    <!-- Google Fonts - Lobster -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMk1d5Fkfp7f9b5S6XYRn5Fb3v1pME5Fz5r5+C59RqO5A4f2f5O+Rb"
+        crossorigin="anonymous"></script>
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/4002938454.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    .testimonial-img {
+        width: 100%;
+        max-width: 400px; 
+        height: auto;
+    }
+</style>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Furry Express</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Feedback</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#promo">Promo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero bg-warning text-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6"><br><br>
+                    <h1 class="big-heading">Professional Pet Services</h1><br>
+                    <p>We provide top-quality services, for your beloved pets.</p> <br>
+                    <a href="#contact" class="btn btn-primary btn-lg">Contact Us</a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/logo.png" alt="Pet Grooming" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="section-heading text-center">Furry Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service-item text-center">
+                        <i class="fas fa-paw fa-3x"></i>
+                        <h3 class="mt-3">Grooming</h3>
+                        <p>We offer professional grooming services to keep your pets looking their best.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item text-center">
+                        <i class="fas fa-bath fa-3x yellow-icon"></i>
+                        <h3 class="mt-3">Bathing</h3>
+                        <p>Our experienced team provides gentle and effective bathing for all types of pets.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item text-center">
+                        <i class="fas fa-heart fa-3x"></i>
+                        <h3 class="mt-3">Care</h3>
+                        <p>We care for your pets as if they were our own, ensuring their comfort and happiness.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item text-center">
+                        <i class="fas fa-home fa-3x"></i>
+                        <h3 class="mt-3">Boarding</h3>
+                        <p>Your pets can stay with us in a safe and comfortable environment while you're away.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item text-center">
+                        <i class="fas fa-tooth fa-3x"></i>
+                        <h3 class="mt-3">Dental Care</h3>
+                        <p>Professional dental cleaning and oral care services for your pet's dental health.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item text-center">
+                        <i class="fas fa-stethoscope fa-3x"></i>
+                        <h3 class="mt-3">Check-ups</h3>
+                        <p>Routine health check-ups and vaccinations to ensure your pet's well-being.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-light py-5">
+        <div class="container">
+            <h2 class="section-heading text-center">About Us</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="images/aboutus.jpg" alt="About Us" class="img-fluid">
+                </div>
+                <div class="col-lg-6"><br><br><br><br>
+                    <p>At Furry Express, we have a passionate and dedicated team of fur lovers who are committed in
+                        providing pets with the greatest grooming experience possible.  With years of experience, we understand
+                        the unique needs of each pet and ensure they are pampered and cared for during their visit.</p>
+                    <p>Our mission is to make every pet look and feel their best while keeping them secure and comfortable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="py-5">
+    <div class="container">
+        <h2 class="section-heading text-center">Feedback</h2>
+        <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active container-fluid">
+                    <h2 class="testimonial-text">Our dog always looks forward to the grooming sessions at Pet Grooming. They do an amazing job!</h2>
+                    <img src="images/feedback.jpg" alt="Testimonial 1" class="testimonial-img" width="300">
+                    <p class="testimonial-author">- Furry Friend 1</p>
+                </div>
+        </div>
+    </div>
+</section>
+
+
+   <!-- Pricing Section -->
+   <section id="pricing" class="py-5">
+    <div class="container">
+        <h2 class="section-heading text-center">Furry Services Pricing</h2>
+        <div class="row">
+            <!-- Pricing Card for Basic Grooming -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h3 class="price-text">₱400</h3>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Basic Grooming</h4>
+                        <p class="card-text">Includes bath, nail trimming, and ear cleaning.</p>
+                        <a href="#appointment" class="btn btn-warning btn-block">Set Appointment</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h3 class="price-text">₱500</h3>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Premium Grooming</h4>
+                        <p class="card-text">Includes bath, nail trimming, ear cleaning, toothbrush, and haircut.</p>
+                        <a href="#appointment" class="btn btn-warning btn-block">Set Appointment</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h3 class="price-text">₱250</h3>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Bathing Only</h4>
+                        <p class="card-text">A simple bath, powder, and cologne for your pet.</p>
+                        <a href="#appointment" class="btn btn-warning btn-block">Set Appointment</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h3 class="price-text">₱450/day</h3>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Boarding</h4>
+                        <p class="card-text">Safe and comfortable environment for your pet while you're away. The staff will keep you updated through video calls.</p>
+                        <a href="#appointment" class="btn btn-warning btn-block">Set Appointment</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h3 class="price-text">₱1500</h3>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Dental Care</h4>
+                        <p class="card-text">Professional dental cleaning and oral care services for your pet's yellow teeth, bad breath, or toothache.</p>
+                        <a href="#appointment" class="btn btn-warning btn-block">Set Appointment</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h3 class="price-text">₱1000</h3>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Check-ups</h4>
+                        <p class="card-text">Routine health check-ups and vaccinations for your pet's well-being. Practice preventive care for your pet! </p>
+                        <a href="#appointment" class="btn btn-warning btn-block">Set Appointment</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Product Section -->
+<section id="products" class="bg-light py-5">
+    <div class="container">
+        <h2 class="section-heading text-center">Furry Products</h2>
+        <div class="row">
+  
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100">
+                    <img src="images/dogfood1.jpg" class="card-img-top" alt="Dog Food">
+                    <div class="card-body">
+                        <h5 class="card-title">Dog Food</h5>
+                        <p class="card-text">High-quality dog food for all life stages.</p>
+                        <p class="card-text">Price: ₱500</p>
+                        <a href="#" class="btn btn-primary btn-block">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100">
+                    <img src="images/catfood.jpg" class="card-img-top" alt="Cat Food">
+                    <div class="card-body">
+                        <h5 class="card-title">Cat Food</h5>
+                        <p class="card-text">Nutritious cat food to keep your feline friend healthy.</p>
+                        <p class="card-text">Price: ₱500</p>
+                        <a href="#" class="btn btn-primary btn-block">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100">
+                    <img src="images/dogset.jpg" class="card-img-top" alt="Dog Grooming Supplies">
+                    <div class="card-body">
+                        <h5 class="card-title">Dog Supplies</h5>
+                        <p class="card-text">Essential supplies for your canine companion.</p>
+                        <p class="card-text">Price: ₱4500</p>
+                        <a href="#" class="btn btn-primary btn-block">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100">
+                    <img src="images/catset.jpg" class="card-img-top" alt="Cat Grooming Supplies">
+                    <div class="card-body">
+                        <h5 class="card-title">Cat Supplies</h5>
+                        <p class="card-text">Essentials for your lovely cat.</p>
+                        <p class="card-text">Price: ₱4500</p>
+                        <a href="#" class="btn btn-primary btn-block">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Promo Section -->
+<section id="promo" class="bg-primary text-white py-5">
+    <div class="container">
+        <h2 class="section-heading text-center">Join Us</h2>
+        <p class="text-center">Subscribe to our newsletter to be updated on our Furry deals and promos.</p>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form>
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Enter your email" aria-label="Enter your email" aria-describedby="subscribe-button" required>
+                        <button class="btn btn-warning" type="submit" id="subscribe-button">Subscribe Now</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="section-heading text-center">Contact Us</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>If you have any questions or would like to schedule an appointment, please don't hesitate to
+                        contact us. We're here to help!</p>
+                    <p><i class="fas fa-phone"></i> Mobile Number: +639991112222</p>
+                    <p><i class="fas fa-envelope"></i> Email: furryfriends@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Address: Unitop Mall, Dasmarinas, Cavite, Philippines</p>
+                </div>
+                <div class="col-lg-6">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container text-center">
+            <p>&copy; 2023 Pet Grooming</p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
